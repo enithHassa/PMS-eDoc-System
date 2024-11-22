@@ -12,8 +12,9 @@ This project aims to leverage technology to make healthcare services more access
 -A dynamic and visually appealing home page to introduce the platform.
 -Intuitive navigation for accessing different portal features.
 2. Payment Management System
+-CRUD operations (Create, Read, Update, Delete) for payment interactions.
 -Secure and efficient handling of payments for medical services.
-3. User-Friendly Interface
+4. User-Friendly Interface
 -Designed with HTML, CSS, JavaScript, and PHP for an engaging user experience.
 
 🛠️ Technologies Used
