@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment CRUD</title>
+</head>
+<body>
+    <h2>Create Payment</h2>
+    <form action="PHP/excreate.php" method="post">
+        Amount: <input type="text" name="amount"><br>
+        Description: <input type="text" name="description"><br>
+        <input type="submit" value="Create Payment">
+    </form>
+
+    <h2>Update Payment</h2>
+    <form action="PHP/exupdate.php" method="post">
+        ID: <input type="text" name="id"><br>
+        Amount: <input type="text" name="amount"><br>
+        Description: <input type="text" name="description"><br>
+        <input type="submit" value="Update Payment">
+    </form>
+
+    <h2>Delete Payment</h2>
+    <form action="PHP/exdelete.php" method="post">
+        ID: <input type="text" name="id"><br>
+        <input type="submit" value="Delete Payment">
+    </form>
+
+    <h2>View Payments</h2>
+    <a href="PHP/exread.php">View Payments</a>
+</body>
+</html>

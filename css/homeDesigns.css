@@ -1,0 +1,286 @@
+
+/* Header CSS*/
+.nav-bar ul li a img {
+    width: 150px;
+    height: 60px;
+    margin-right: 10px;
+  }
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;overflow: hidden;
+    background-color: white;
+  }
+
+  .nav-bar li {
+    float: left;
+  }
+
+  .nav-bar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    
+  }
+
+.nav-bar {
+    position: absolute;
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    display: inline;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+}
+
+.nav-bar a:hover {
+    font-weight: bold;
+}
+
+#login_btn {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    background : none;
+    border: 3px solid orange;
+    color : gray;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+}
+
+.aling {
+    position: relative;
+    top: 20px;
+}
+/* Header ends */
+
+
+
+/* Image container styles */
+.image-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container ul li a img {
+    width: 220px;
+    height: 300px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 40px;
+    float: left;
+}
+
+.buttons {
+    text-align: center; 
+    margin-top: 50px;
+}
+
+#prevButton {
+    float: left;
+    padding: 25px 10px;
+    margin-top: 100px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+#nextButton {
+    float: right;
+    padding: 25px 10px;
+    margin-top: 100px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+#nextButton:hover {
+    background-color: grey;
+}
+
+#prevButton:hover {
+    background-color: grey;
+}
+
+/* Image container styles end */
+
+
+/* Image slider styles */
+.slider {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.slide-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .slide-fade{
+
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.slide-image{
+    height:550px;
+    width:1000px;
+}
+.text-overlay{
+    position:absolute;
+    top:40%;
+    left:5%;
+}
+
+h4{
+    color:black;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 0px;
+}
+
+h1{
+    color:black;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-box {
+    background-color: white;
+    height: 400px;
+    width: 200px;
+}
+
+.regiBtn{
+    background-color:rgb(56, 97, 184);
+    color: white;
+    border-radius: 20px;
+    padding: 8px 30px; 
+    margin: 30px 0px;
+    margin-top:10px;
+}
+
+.regiBtn:hover{
+    color:black;
+    background: white;
+    opacity:1.5;
+    padding: 10px 40px;
+}
+
+/* Image slider styles */
+
+/* Footer CSS*/
+.f-hr {
+    border: 5px solid rgb(184, 182, 182);
+}
+
+.footer {
+    position:absolute;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.f-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-lists {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.f-li1,
+.f-li2,
+.f-li3,
+.f-li4 {
+    list-style-type: none;
+    padding: 0; margin: 0;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 90px;
+}
+
+.f-li1 li a,
+.f-li2 li a,
+.f-li3 li a,
+.f-li4 li a {
+    display: block;
+    color: black;
+    padding: 2px 2px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.f-lists a:hover {
+    text-decoration: underline;
+}
+
+.f-call {
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+
+.call-ban img {
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: grey;
+    opacity: 0.9;
+}
+/*Footer ends*/
